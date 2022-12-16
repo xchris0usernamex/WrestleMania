@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <title>Wrestle Mania </title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./globalStyles.css">
+  <link rel="stylesheet" href="./components.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+  <link rel="stylesheet" href="./home.css">
+</head>
+
+<body>
+  
+  <div class="nav">
+    <div class="container">
+      <div class="nav__wrapper">
+        
+        <nav>
+          <div class="nav__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-menu">
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </div>
+          <div class="nav__bgOverlay"></div>
+          <ul class="nav__list">
+            <div class="nav__close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-x">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </div>
+            <div class="nav__list__wrapper">
+
+              <li><a class="nav__link" href="./index.html">Home</a></li>
+              
+              <li><a class="nav__link" href="./about.html">About</a></li>
+              <li><a class="nav__link" href="./contact.html">Contact</a></li>
+              <li><a href="./registration.html" class="btn primary-btn">Registration</a></li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+ 
+  <section id="hero">
+    <div class="container">
+      <div class="hero__wrapper">
+        <div class="hero__left" data-aos="fade-left">
+          <div class="hero__left__wrapper">
+
+            <h1 class="hero__heading">Wrestle-Mania</h1>
+            <p class="hero__info">
+              We are a gym offering wrestling training and instruction. 
+              
+            </p>
+            <div class="button__wrapper">
+              
+              <a href="./registration.html" class="btn">Registration</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero__right" data-aos="fade-right">
+          <div class="hero__imgWrapper">
+            <img src="./images/wrestling.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="storeInfo" data-aos="fade-up">
+    <div class="container">
+      <div class="storeInfo__wrapper">
+        <div class="storeInfo__item">
+          <div class="storeInfo__icon">
+            <img src="./images/wall-clock-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="storeInfo__title">
+            Time Varies
+          </h3>
+          <p class="storeInfo__text">
+            Open Daily
+          </p>
+        </div>
+        <div class="storeInfo__item">
+          <div class="storeInfo__icon">
+            <img src="./images/address-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="storeInfo__title">
+            New York
+          </h3>
+          <p class="storeInfo__text">
+            Address
+          </p>
+        </div>
+        <div class="storeInfo__item">
+          <div class="storeInfo__icon">
+            <img src="./images/phone-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="storeInfo__title">
+            718-555-1111
+          </h3>
+          <p class="storeInfo__text">
+            Call Now
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section id="ourSpecials" data-aos="fade-up">
+    <div class="container">
+      <div class="ourSpecials__wrapper">
+        <div class="ourSpecials__left">
+          <div class="ourSpecials__item">
+            <div class="ourSpecials__item__img">
+              <img src="./images/theclass.png" alt="food img">
+            </div>
+            <h2 class="ourSpecials__item__title">
+              Class Package
+            </h2>
+            <h3 class="ourSpecials__item__price">
+              $100
+            </h3>
+            <div class="ourSpecials__item__stars">
+              <img src="./images/3star.png" alt="3 stars">
+            </div>
+            <p class="ourSpecials__item__text">
+            Twice a week for four months 
+            a class of about 10-15 people with 2 instructors
+            2-2.5 hours per class
+            </p>
+          </div>
+          <div class="ourSpecials__item">
+            <div class="ourSpecials__item__img">
+              <img src="./images/coach.png" alt="food img">
+            </div>
+            <h2 class="ourSpecials__item__title">
+             Private Lessons
+            </h2>
+            <h3 class="ourSpecials__item__price">
+              $10
+            </h3>
+            <div class="ourSpecials__item__stars">
+              <img src="./images/3star.png" alt="3 stars">
+            </div>
+            <p class="ourSpecials__item__text">
+            one on one with an instructor
+            $10 per lesson
+            </p>
+          </div>
+        </div>
+        <div class="ourSpecials__right">
+          <h2 class="ourSpecials__title">
+            Our Courses
+          </h2>
+          <p class="ourSpecials__text">
+            All of instructor are former wrestlers, have taught self defense or have 
+           been in police or military that have used the techniques we teach
+          </p>
+          <a href="./registration.html" class="btn primary-btn">Registration</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+ 
+ 
+  <section id="eventsMedia" data-aos="fade-up">
+    <div class="container">
+      <div class="eventsMedia__wrapper">
+        <div class="eventsMedia__1">
+          <img src="./images/thematch.png" alt="events">
+          <a href="#" class="eventsMedia__1__playButton">
+            <img src="./images/playIcon.svg" alt="play button">
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  
+        <div class="eventsInfo__right">
+          <h2 class="eventsInfo__title">Registration For courses</h2>
+          <p class="eventsInfo__text">Become a Member Now</p>
+          <a href="./contact.html" class="btn primary-btn">Contact Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="whyUs">
+    <div class="container">
+      <div class="whyUs__wrapper">
+        <div class="whyUs__left" data-aos="fade-right">
+          <h2 class="whyUs__title">
+            Why Choose Our Gym
+          </h2>
+          <p class="whyUs__text">
+           
+          </p>
+        </div>
+        <div class="whyUs__right" data-aos="fade-left">
+          <div class="whyUs__items__wrapper">
+            <div class="whyUs__item">
+              <div class="whyUs__item__icon">
+              
+              </div>
+              <p class="whyUs__item__text">Quality Course</p>
+            </div>
+            <div class="whyUs__item">
+              <div class="whyUs__item__icon">
+                
+              </div>
+              <p class="whyUs__item__text">Self Defense</p>
+            </div>
+            <div class="whyUs__item">
+              <div class="whyUs__item__icon">
+                
+              </div>
+              <p class="whyUs__item__text">Skilled Instructors</p>
+            </div>
+            <div class="whyUs__item">
+              <div class="whyUs__item__icon">
+                
+              </div>
+              <p class="whyUs__item__text">Best Curriculum</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section id="testimonial">
+    <div class="container">
+      <div class="testimonial__wrapper" data-aos="fade-up">
+        <h2 class="testimonial__title">What the Members Say</h2>
+        <div class="testimonial__items__wrapper">
+          <div class="testimonial__item">
+            <div class="testimonial__item__img">
+             
+            </div>
+            <div class="testimonial__item__info">
+              <h3 class="testimonial__item__name">Member 1</h3>
+              <div class="testimonial__item__stars">
+                <img src="./images/3star.png" alt="3 star">
+              </div>
+              <p class="testimonial__item__text">
+                “I completed the six month course and learned alot.
+                Not many wrestling gyms around here. Thankfully we have WrestleMania .”
+              </p>
+            </div>
+          </div>
+          <div class="testimonial__item">
+            <div class="testimonial__item__img">
+             
+            </div>
+            <div class="testimonial__item__info">
+              <h3 class="testimonial__item__name">Member 2</h3>
+              <div class="testimonial__item__stars">
+                <img src="./images/3star.png" alt="3 star">
+              </div>
+              <p class="testimonial__item__text">
+                "from start to finish, the course, Instructor was intresting, wrestling  was wonderful and
+                attentive, training plentiful and , physically challenging"
+              </p>
+            </div>
+          </div>
+          <div class="testimonial__item">
+            <div class="testimonial__item__img">
+             
+            </div>
+            <div class="testimonial__item__info">
+              <h3 class="testimonial__item__name">Member 3</h3>
+              <div class="testimonial__item__stars">
+                <img src="./images/3star.png" alt="3 star">
+              </div>
+              <p class="testimonial__item__text">
+                “A fitness welcome . Always great, good instruction
+                tough- just the way we need to succedd . Would definitely recommend. We have been repeatedly and it's consistently
+                exceeded our expectations"
+              </p>
+            </div>
+          </div>
+          <div class="testimonial__item">
+            <div class="testimonial__item__img">
+              
+            </div>
+            <div class="testimonial__item__info">
+              <h3 class="testimonial__item__name">Member 4</h3>
+              <div class="testimonial__item__stars">
+                <img src="./images/3star.png" alt="3 star">
+              </div>
+              <p class="testimonial__item__text">
+                “I would just like to say thank you for the excellent time we received in your gym last night.
+                Although the place was very hard we still had an excellent time “
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__col1">
+          <div class="footer__logo">
+            <h3 class="footer__text__title">
+            Links
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="/index.html">Home</a>
+            </li>
+            
+            <li>
+              <a href="./registration.html">Registration</a>
+            </li>
+            <li>
+              <a href="./about.html">About Us</a>
+            </li>
+            <li>
+              <a href="./contact.html">contact Us</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ol>
+        </div>
+        <div class="footer__col3">
+          <h3 class="footer__text__title">
+            Support
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Support Center</a>
+            </li>
+            <li>
+              <a href="#">Feedback</a>
+            </li>
+          </ol>
+        </div>
+        <div class="footer__col4">
+          <h3 class="footer__text__title">
+            Contact
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="#">718-555-1111</a>
+            </li>
+            
+            <li>
+              <a href="#">New York</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ 
+  <script src="./main.js"></script>
+</body>
+
+</html>
