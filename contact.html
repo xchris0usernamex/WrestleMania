@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <title>Contact | WM</title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./globalStyles.css">
+  <link rel="stylesheet" href="./components.css">
+  
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+ 
+</head>
+
+<body>
+
+  <div class="nav">
+    <div class="container">
+      <div class="nav__wrapper">
+        
+        <nav>
+          <div class="nav__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-menu">
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </div>
+          <div class="nav__bgOverlay"></div>
+          <ol class="nav__list">
+            <div class="nav__close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-x">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </div>
+            <div class="nav__list__wrapper">
+
+              <li><a class="nav__link" href="./index.html">Home</a></li>
+              
+              <li><a class="nav__link" href="./about.html">About</a></li>
+              <li><a class="nav__link" href="./contact.html">Contact</a></li>
+              <li><a href="./registration.html" class="btn primary-btn">Registration</a></li>
+            </div>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <section id="storeInfo" data-aos="fade-up">
+    <div class="container">
+      <div class="storeInfo__wrapper">
+        <div class="storeInfo__item">
+          <div class="storeInfo__icon">
+            <img src="./images/wall-clock-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="storeInfo__title">
+            Time Varies 
+          </h3>
+          <p class="storeInfo__text">
+            Open Daily
+          </p>
+        </div>
+        <div class="storeInfo__item">
+          <div class="storeInfo__icon">
+            <img src="./images/address-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="storeInfo__title">
+            New York
+          </h3>
+          <p class="storeInfo__text">
+            Address
+          </p>
+        </div>
+        <div class="storeInfo__item">
+          <div class="storeInfo__icon">
+            <img src="./images/phone-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="storeInfo__title">
+            718-555-1111
+          </h3>
+          <p class="storeInfo__text">
+            Call Now
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="form" data-aos="fade-down">
+    <div class="container">
+      <h3 class="form__title">
+        Contact 
+      </h3>
+      <div class="form__wrapper">
+        <form name="contact" method="POST" netlify>
+          <div class="form__group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="First Name" required>
+          </div>
+          <div class="form__group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="Last Name" required>
+          </div>
+          <div class="form__group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" required>
+          </div>
+          <div class="form__group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="Subject" required>
+          </div>
+          <div class="form__group form__group__full">
+            <label for="message">Message</label>
+            <textarea name="Message" id="message" cols="30" rows="10" required></textarea>
+          </div>
+          <button type="submit" class="btn primary-btn">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  
+        <div class="footer__col2">
+          <h3 class="footer__text__title">
+            Links
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="/index.html">Home</a>
+            </li>
+            
+            <li>
+              <a href="./registration.html">Registration</a>
+            </li>
+            <li>
+              <a href="./about.html">About Us</a>
+            </li>
+            <li>
+              <a href="./contact.html">contact Us</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ol>
+        </div>
+        <div class="footer__col3">
+          <h3 class="footer__text__title">
+            Support
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Support Center</a>
+            </li>
+            <li>
+              <a href="#">Feedback</a>
+            </li>
+          </ol>
+        </div>
+        <div class="footer__col4">
+          <h3 class="footer__text__title">
+            Contact
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="#">718-555-1111</a>
+            </li>
+           
+            <li>
+              <a href="#">New York</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  </div>
+ 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  
+  <script src="./main.js"></script>
+</body>
+
+</html>
